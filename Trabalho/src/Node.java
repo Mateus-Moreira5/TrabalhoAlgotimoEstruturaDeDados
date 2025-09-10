@@ -3,7 +3,7 @@ public class Node {
     private Node next;
     public Node(Node no, Node next) {
         this.no = no;
-        this.next = next;
+        this.next = null;
     }
     public Node getNo() {
         return no;
