@@ -28,7 +28,7 @@ public class Processo{
     public String getRecurso_necessario() {
         return recurso_necessario;
     }
-    public boolean isRequisitou() {
+    public boolean getRequisitou() {
         return Requisitou;
     }
     public void setId(int id) {
