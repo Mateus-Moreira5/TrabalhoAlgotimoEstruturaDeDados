@@ -8,4 +8,3 @@
 - Link do repositório: https://github.com/Mateus-Moreira5/TrabalhoAlgotimoEstruturaDeDados.git
 - Descrição: Trabalho avaliativo da matéria de Algoritmos e Estrutura de Dados. Simulação de um escalonador de processos, para isso foram utilizadas ADTs para simular o comportamento de listas de processos, possuindo diferentes níveis de prioridade.
 - Instruções para compilar e executar o projeto:
-  - 
