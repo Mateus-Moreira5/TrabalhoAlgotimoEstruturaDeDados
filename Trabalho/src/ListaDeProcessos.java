@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class ListaDeProcessos {
     Node head;
     Node tail;
@@ -49,5 +51,8 @@ public class ListaDeProcessos {
             atual = atual.next;
         }
         System.out.println();
+    }
+    public List<Processo> removerProcessosPorRecurso(String recursoDisponivel) {
+        throw new UnsupportedOperationException("Unimplemented method 'removerProcessosPorRecurso'");
     }
 }
