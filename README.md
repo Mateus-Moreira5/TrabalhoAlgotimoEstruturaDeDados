@@ -1,4 +1,4 @@
-# Trabalho Algotimo e Estrutura DeDados
+# Trabalho Algotimo e Estrutura De Dados
 - Professor: Dimmy Karson Soares Magalhães.
 - Matéria: Algoritmos e Estrutura de Dados.
 - Integrantes do grupo:
