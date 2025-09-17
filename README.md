@@ -3,8 +3,5 @@
 - Matéria: Algoritmos e Estrutura de Dados.
 - Integrantes do grupo:
   - Mateus Moreira Fernandes.
-    - Matrícula:
-  - Ian Brito Ribeiro Castro.
-    - Matrícula:
+  - Ian Brito Ribeiro de Castro.
   - Caio Vitor Campelo Alcântara.
-    - Matrícula
