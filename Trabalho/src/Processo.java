@@ -1,4 +1,4 @@
-public class Processo{
+public class Processo {
     private int id; 
     private String nome;
     private int prioridade; 
@@ -6,7 +6,12 @@ public class Processo{
     private String recurso_necessario;
     private boolean Requisitou;
 
-    public Processo(int id, String nome, int prioridade, int ciclos_necessarios, String recurso_necessario, boolean Requisitou) {
+    public Processo(int id2, String nome2, int prioridade2, int ciclos_necessarios2, String recurso_necessario2,
+            boolean requisitou2) {
+        
+    }
+
+    public void processo(int id, String nome, int prioridade, int ciclos_necessarios, String recurso_necessario, boolean Requisitou) {
         this.id = id;
         this.nome = nome;
         this.prioridade = prioridade;
@@ -14,6 +19,7 @@ public class Processo{
         this.recurso_necessario = recurso_necessario;
         this.Requisitou = false;
     }
+
     public int getId() {
         return id;
     }
@@ -47,5 +53,4 @@ public class Processo{
     public void setRequisitou(boolean requisitou) {
         Requisitou = requisitou;
     }
-    
 }
