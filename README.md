@@ -9,12 +9,11 @@
 - Descrição: Trabalho avaliativo da matéria de Algoritmos e Estrutura de Dados. Simulação de um escalonador de processos, para isso foram utilizadas ADTs para simular o comportamento de listas de processos, possuindo diferentes níveis de prioridade.
 - Relatorio do projeto: [relatorio_analise.pdf](https://github.com/user-attachments/files/22391801/relatorio_analise.pdf)
 - Instruções para compilar e executar o projeto:
-A execução do projeto deve ser feita via linha de comando, no qual, vai ser implementado o caminho para o arquivo. Logo após pode compilar o projeto na "App.java".
-
-PASSO A PASSO DE COMO USAR LINHA DE COMANDO:
- 1. Abra o terminal do vs code;
- 2. Navegue até a pasta do projeto, (utilizando o Comando "cd");
- 3. Compile o código antes de executar, você precisa compilar os arquivos .java para .class; (ex:javac *.java)
- 4. Execute pela linha de comando do vs code: Executa o programa e passa o nome do arquivo como um argumento. (ex:java App "NomeArquivo".txt).
- 
-Seguindo esses passos você consegue faz a utilização do projeto.
+A execução do projeto deve ser feita via Linha de Comando, no qual, vai ser implementado o caminho para o arquivo. Logo após pode compilar o projeto na "App.java".
+- Passo a passo para executar o programa no VS code:
+   1. Abra o terminal do VS code.
+   2. Clone o repositório usando "git clone" e depois o URL do repositório.
+   3. Pelo terminal vá ate o arquivo 'src' usando 'cd' e o nome do diretorio.
+   4. Dentro do arquivo 'src' adicione o arquivo.txt com os arquivos que ja estão na 'src'.
+   5. Agora compile o codigo usando " javac *.java " no terminal.
+   6. Agora no terminal execute o comando 'java App' e logo depois o arquivo .txt, não esqueça que ele tem que está com ponto e barra. Ex: 'java App .\Teste.txt'.
