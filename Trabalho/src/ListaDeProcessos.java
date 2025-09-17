@@ -2,6 +2,7 @@ public class ListaDeProcessos {
     Node head;
     Node tail;
     int size = 0;
+
     public void adicionarProcesso(Processo processo){
         Node Processo1 = new Node(processo, null);
         if (head == null){
@@ -49,5 +50,8 @@ public class ListaDeProcessos {
             atual = atual.next;
         }
         System.out.println();
+    }
+    public int getSize() {
+        return size;
     }
 }
