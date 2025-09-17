@@ -50,4 +50,7 @@ public class ListaDeProcessos {
         }
         System.out.println();
     }
+    public int getSize() {
+    return this.size;
+}
 }
