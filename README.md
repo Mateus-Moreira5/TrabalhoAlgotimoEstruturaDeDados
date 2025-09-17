@@ -8,3 +8,10 @@
 - Link do repositório: https://github.com/Mateus-Moreira5/TrabalhoAlgotimoEstruturaDeDados.git
 - Descrição: Trabalho avaliativo da matéria de Algoritmos e Estrutura de Dados. Simulação de um escalonador de processos, para isso foram utilizadas ADTs para simular o comportamento de listas de processos, possuindo diferentes níveis de prioridade.
 - Instruções para compilar e executar o projeto:
+A execução do projeto deve ser feita via Linha de Comando, no qual, vai ser implementado o caminho para o arquivo. Logo após pode compilar o projeto na "App.java".
+PASSO A PASSO DE COMO USAR LINHA DE COMANDO:
+ 1. Abra o terminal;
+ 2. Navegue até a Pasta do Projeto, utilizando o comando "cd";
+ 3. Compile o Código antes de executar, você precisa compilar os arquivos .java para .class; (ex:javac *.java)
+ 4. Execute pela Linha de Comando: Agora você executa o programa e passa o nome do arquivo como um argumento. (ex:java App "NomeArquivo".txt).
+Seguindo esses passos você consegue faz a utilização do projeto.
