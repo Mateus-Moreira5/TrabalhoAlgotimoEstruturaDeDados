@@ -49,7 +49,6 @@ public class ListaDeProcessos {
             }
             atual = atual.next;
         }
-        System.out.println();
     }
     public int getSize() {
         return size;

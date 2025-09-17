@@ -71,7 +71,7 @@ public class Schedule {
                         Processo ProcessoEmExecucao = ListaBaixaPrioridade.removerInicio();
                         if(ProcessoEmExecucao.getRecurso_necessario() != null &&
                         ProcessoEmExecucao.getRecurso_necessario().equals("DISCO") &&
-                        ProcessoEmExecucao.getJaRequisitou()){
+                        !ProcessoEmExecucao.getJaRequisitou()){
                             ProcessoEmExecucao.setJaRequisitou(true);
                             ProcessosBloqueados.adicionarProcesso(ProcessoEmExecucao);
                             return;
@@ -119,7 +119,6 @@ public class Schedule {
                 }
             } else {
                 Processo ProcessoEmExecucao = ListaAltaPrioridade.removerInicio();
-                CountCiclosAltaPrioridade++;
                 if(ProcessoEmExecucao.getRecurso_necessario() != null && 
                 ProcessoEmExecucao.getRecurso_necessario().equals("DISCO") && 
                 !ProcessoEmExecucao.getJaRequisitou()){
@@ -127,6 +126,7 @@ public class Schedule {
                     ProcessosBloqueados.adicionarProcesso(ProcessoEmExecucao);
                     return;
                 } else { 
+                    CountCiclosAltaPrioridade++;
                     System.out.println("|------------------------------------------------|");
                     System.out.println("|Nome processo executado: "+ProcessoEmExecucao.getNome());
                     System.out.println("|ID do processo executado: "+ProcessoEmExecucao.getId());
