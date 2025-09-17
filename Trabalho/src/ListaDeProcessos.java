@@ -1,9 +1,9 @@
-public class ListaDeProcessos {
+public class ListaDeProcessos { // Classe que monta as listas encadeadas
     Node head;
     Node tail;
     int size = 0;
 
-    public void adicionarProcesso(Processo processo){
+    public void adicionarProcesso(Processo processo){ // Adiciona os processos no final da lista como s fosse uma fila
         Node Processo1 = new Node(processo, null);
         if (head == null){
             head = Processo1;
@@ -14,7 +14,7 @@ public class ListaDeProcessos {
         }
         size++;
     }
-    public Processo removerInicio(){
+    public Processo removerInicio(){ // Remove o primeiro processo da lista e retorna ele como "processoRemovida"
         if( head == null){
             return null;
         }
@@ -26,16 +26,16 @@ public class ListaDeProcessos {
         size--;
         return processoRemovido;
     }
-    public boolean listaVazia(){
+    public boolean listaVazia(){ // Verifica se a lista está vazia
         return head == null;
     }
-    public Processo mostrarPrimeiro(){
+    public Processo mostrarPrimeiro(){ // Retorna o primeiro processo da lista
         if (head == null){
             return null;
         }
         return head.processo;
     }
-    public void visualizarLista(){
+    public void visualizarLista(){ // Vizualia a lista
         if(listaVazia()){
             System.out.println("Lista Vazia.");
             return;
@@ -50,7 +50,7 @@ public class ListaDeProcessos {
             atual = atual.next;
         }
     }
-    public int getSize() {
+    public int getSize() { // Retorna o tamanho da lista
         return size;
     }
 }

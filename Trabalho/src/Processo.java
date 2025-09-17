@@ -1,4 +1,4 @@
-public class Processo {
+public class Processo { // Classe que vai definir as características de um processo
     private int id; 
     private String nome;
     private int prioridade; 
@@ -6,7 +6,7 @@ public class Processo {
     private String recurso_necessario;
     private boolean jaRequisitou;
 
-    public Processo(int id, String nome, int prioridade, int ciclos_necessarios, String recurso_necessario) {
+    public Processo(int id, String nome, int prioridade, int ciclos_necessarios, String recurso_necessario) { // Construtor
         this.id = id;
         this.nome = nome;
         this.prioridade = prioridade;
@@ -15,6 +15,7 @@ public class Processo {
         this.jaRequisitou = false;
 
     }
+    // Getters e Setters
     public boolean getJaRequisitou() {
         return jaRequisitou;
     }
