@@ -53,4 +53,7 @@ public class ListaDeProcessos { // Classe que monta as listas encadeadas
     public int getSize() { // Retorna o tamanho da lista
         return size;
     }
+    public int getSize() {
+    return this.size;
+    }
 }
