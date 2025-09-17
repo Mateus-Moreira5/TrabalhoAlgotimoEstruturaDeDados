@@ -1,4 +1,4 @@
-public class Processo{
+public class Processo {
     private int id; 
     private String nome;
     private int prioridade; 
@@ -6,7 +6,16 @@ public class Processo{
     private String recurso_necessario;
     private boolean jaRequisitou;
 
+<<<<<<< HEAD
     public Processo(int id, String nome, int prioridade, int ciclos_necessarios, String recurso_necessario) {
+=======
+    public Processo(int id2, String nome2, int prioridade2, int ciclos_necessarios2, String recurso_necessario2,
+            boolean requisitou2) {
+        
+    }
+
+    public void processo(int id, String nome, int prioridade, int ciclos_necessarios, String recurso_necessario, boolean Requisitou) {
+>>>>>>> 6531e2138537abfebbe9e76337ac7849490755f0
         this.id = id;
         this.nome = nome;
         this.prioridade = prioridade;
@@ -15,6 +24,7 @@ public class Processo{
         this.jaRequisitou = false;
 
     }
+<<<<<<< HEAD
     public boolean getJaRequisitou() {
         return jaRequisitou;
     }
@@ -22,6 +32,8 @@ public class Processo{
     public void setJaRequisitou(boolean jaRequisitou) {
         this.jaRequisitou = jaRequisitou;
     }
+=======
+>>>>>>> 6531e2138537abfebbe9e76337ac7849490755f0
 
     public int getId() {
         return id;
@@ -50,4 +62,10 @@ public class Processo{
     }public void setRecurso_necessario(String recurso_necessario) {
         this.recurso_necessario = recurso_necessario;
     }
+<<<<<<< HEAD
+=======
+    public void setRequisitou(boolean requisitou) {
+        Requisitou = requisitou;
+    }
+>>>>>>> 6531e2138537abfebbe9e76337ac7849490755f0
 }

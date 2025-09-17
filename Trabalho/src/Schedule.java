@@ -145,6 +145,7 @@ public class Schedule {
             }
         }
     }
+<<<<<<< HEAD
     public void gerenciarProcessosBloqueados(){
         if (ProcessosBloqueados.getSize() > 0){
             Processo ProcessoDesbloqueado = ProcessosBloqueados.removerInicio();
@@ -175,3 +176,18 @@ public class Schedule {
         }
     }
 }
+=======
+
+    public void adicionarProcesso(Processo processo){
+        if(processo.getPrioridade() == 1){
+            ListaBaixaPrioridade.adicionarProcesso(processo);
+        } else if (processo.getPrioridade() == 2){
+            ListaMediaPrioridade.adicionarProcesso(processo);
+        } else if (processo.getPrioridade() == 3){
+            ListaAltaPrioridade.adicionarProcesso(processo);
+        } else {
+            System.out.println("Prioridade inválida para o processo: "+processo.getNome());
+        }
+    }
+}
+>>>>>>> 6531e2138537abfebbe9e76337ac7849490755f0
